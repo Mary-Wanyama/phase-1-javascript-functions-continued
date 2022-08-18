@@ -9,8 +9,8 @@ function mondayWork(work = 'go to the office') {
 
 function wrapAdjective(special = "*"){
 
-    return function(innerText = "programmer"){
-        return `You are ${special}${innerText}${special}!`;
+    return function(text = "programmer"){
+        return `You are ${special}${text}${special}!`;
     };
 };
 wrapAdjective("|| an amazing student ||")
